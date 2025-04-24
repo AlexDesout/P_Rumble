@@ -1,0 +1,53 @@
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    /* Garde l'image entière sans la couper */
+    max-height: 250px;
+    /* Optionnel: ajuste la taille maximale pour ne pas trop étirer les images */
+    margin: 0 auto;
+    display: block;
+    /* Centre l'image dans la carte */
+}
+
+.card-title {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-body img {
+    max-width: 100%;
+    max-height: 500px;
+    /* Limite la taille de l'image dans la modal */
+    object-fit: contain;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+.btn-close {
+    filter: brightness(0) invert(1);
+    /* Cela rend l'icône de fermeture blanche */
+}
