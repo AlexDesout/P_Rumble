@@ -8,8 +8,16 @@
         "nomImageLocal": "BATMAN.png"
     },
     {
-        "nom": "FAUX JESUS",
+        "nom": "DONKEY KONG",
+        "nomImageLocal": "KONG.png"
+    },
+    {
+        "nom": "LE FAUX JESUS",
         "nomImageLocal": "FAUX_JESUS.png"
+    },
+    {
+        "nom": "G. REGNIER",
+        "nomImageLocal": "G_REGNIER.png"
     },
     {
         "nom": "GOOFYMAN",
@@ -32,8 +40,8 @@
         "nomImageLocal": "JOEY.png"
     },
     {
-        "nom": "DONKEY-KONG",
-        "nomImageLocal": "KONG.png"
+        "nom": "J-M.PECATTE",
+        "nomImageLocal": "PECATTE.png"
     },
     {
         "nom": "KRATOS",
@@ -60,8 +68,8 @@
         "nomImageLocal": "NICOLAS.png"
     },
     {
-        "nom": "J-M.PECATTE",
-        "nomImageLocal": "PECATTE.png"
+        "nom": "PATRICK",
+        "nomImageLocal": "PATRICK.png"
     },
     {
         "nom": "QUENTIN",
@@ -86,10 +94,6 @@
     {
         "nom": "SCOOBY-SCOUILLE",
         "nomImageLocal": "SCOOBY.png"
-    },
-    {
-        "nom": "SEGUIER",
-        "nomImageLocal": "SEGUIER.png"
     },
     {
         "nom": "SHREK",
