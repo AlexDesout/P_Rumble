@@ -11,7 +11,13 @@
 
 <body class="bg-dark text-white">
     <div class="container py-5">
-        <h1 class="text-center mb-4">🍻 Pecatte Rhumble</h1>
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h1 class="text-center mb-4">🍻 Pecatte Rhumble</h1>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rulesModal">
+                Voir les règles
+            </button>
+        </div>
+
         <hr>
         <div id="galerie" class="row g-4 justify-content-center">
             <!-- Cartes générées dynamiquement ici -->
@@ -37,6 +43,21 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="rulesModal" tabindex="-1" aria-labelledby="rulesModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="rulesModalLabel">Règles du jeu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/Pecatte_Rhumble.png" alt="Règles du jeu" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="script.js"></script>
